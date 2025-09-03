@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garcia Soluções Elétricas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icones/favicon.ico" type="image/x-icon">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="bg-[#121212]" style="font-family: 'Montserrat', sans-serif;">
+
+    <!-- Navegação -->
+    <nav class="bg-[#121212] shadow-lg fixed w-full z-50 border-b border-[#d6d6d6]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <div class="h-12 w-20 rounded-lg flex items-center justify-center">
+                        <a href="#"><img src="assets/icones/logo.png" alt="Logo" title="Garcia Soluções Elétricas"></a>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#servicos" class="text-[#d6d6d6] hover:text-[#ff6100] transition-colors">Serviços</a>
+                    <a href="#sobre" class="text-[#d6d6d6] hover:text-[#ff6100] transition-colors">Sobre</a>
+                    <a href="#projetos" class="text-[#d6d6d6] hover:text-[#ff6100] transition-colors">Projetos</a>
+                    <a href="#localizacao" class="text-[#d6d6d6] hover:text-[#ff6100] transition-colors">Onde estamos</a>
+                    <a href="#contato" class="text-[#d6d6d6] hover:text-[#ff6100] transition-colors">Contato</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://instagram.com/solucoesgarcia" target="_blank"
+                        class="text-[#d6d6d6] hover:text-pink-600 transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Apresentação -->
+    <section class="text-[#d6d6d6] text-center bg-[#121212] py-20 rounded-3xl">
+        <div>
+            <h1 style="font-family: 'Gagalin', sans-serif;" class="text-7xl">Garcia</h1>
+        </div>
+        <h2 class="font-bold">Soluções elétricas</h2>
+        <p class="text-xl md:text-2xl mb-8 text-blue-100">
+            Empresa especializada em soluções elétricas em Macaé, Rio das Ostras e região - RJ
+        </p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a target="_blank" href="https://wa.me/5522992435074"
+                        class="bg-green-500 hover:bg-green-600 text-[#d6d6d6] px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i> Fale conosco no WhatsApp
+                    </a>
+                    <a href="#servicos"
+                        class="border-2 border-[#d6d6d6] hover:bg-[#d6d6d6] hover:text-blue-900 text-[#d6d6d6] px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                        Conheça nossos serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="w-full bg-[#d6d6d6] py-10 text-black" id="projetos">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-center text-[#ff6100] text-3xl font-bold mb-8">Nossos Projetos</h2>
+
+            <!-- Swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide1.jpg" alt="Projeto 1"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide2.jpg" alt="Projeto 2"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide3.jpg" alt="Projeto 3"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide4.jpg" alt="Projeto 4"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide5.jpg" alt="Projeto 5"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide6.jpg" alt="Projeto 6"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide7.jpg" alt="Projeto 7"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide8.jpg" alt="Projeto 8"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide9.jpg" alt="Projeto 9"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 10 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide10.jpg" alt="Projeto 10"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 11 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide11.jpg" alt="Projeto 11"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 12 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide12.jpg" alt="Projeto 12"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 13 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide13.jpg" alt="Projeto 13"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 14 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide14.jpg" alt="Projeto 14"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 15 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide15.jpg" alt="Projeto 15"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 17 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide17.jpg" alt="Projeto 17"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 18 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide18.jpg" alt="Projeto 18"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 19 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide19.jpg" alt="Projeto 19"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Macaé, RJ</p>
+                    </div>
+
+                    <!-- Slide 20 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide20.jpg" alt="Projeto 20"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Rio das Ostras, RJ</p>
+                    </div>
+
+                    <!-- Slide 21 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide21.jpg" alt="Projeto 21"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de instalação - Região dos Lagos</p>
+                    </div>
+
+                    <!-- Slide 22 -->
+                    <div class="swiper-slide flex flex-col items-center">
+                        <img src="assets/slide/slide22.jpg" alt="Projeto 22"
+                            class="h-56 object-contain rounded-xl shadow-lg" />
+                        <p class="mt-4 text-center">Projeto de manutenção - Macaé, RJ</p>
+                    </div>
+                </div>
+
+                <!-- Botões -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="py-20 bg-[#121212] text-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4 text-[#ff6100]">Nossos Serviços</h2>
+                <p class="text-xl text-[#d6d6d6]">
+                    Executamos projetos elétricos com qualidade, segurança e confiabilidade.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <!-- Serviço 1 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Projetos de Iluminação</h3>
+                    <p class="mb-4">Instalação de iluminação em LED, sensores de presença e sistemas com
+                        fotocélula para maior economia e eficiência.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20solicitar%20orçamento%20para%20Projetos%20de%20Iluminação"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Solicitar orçamento →</a>
+
+                </div>
+
+                <!-- Serviço 2 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cogs text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Manutenção de Máquinas Leves</h3>
+                    <p class="mb-4">Serviços de manutenção corretiva e preventiva em máquinas leves,
+                        garantindo mais durabilidade e segurança.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20solicitar%20orçamento%20para%20Manutenção%20de%20Máquinas%20Leves"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Solicitar orçamento →</a>
+
+                </div>
+
+                <!-- Serviço 3 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-plug text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Montagem de Padrão ENEL</h3>
+                    <p class="mb-4">Execução de montagem de padrão de energia elétrica conforme normas da
+                        ENEL, com total conformidade e segurança.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20solicitar%20orçamento%20para%20Montagem%20de%20Padrão%20ENEL"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Solicitar orçamento →</a>
+
+                </div>
+
+                <!-- Serviço 4 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Instalações Elétricas</h3>
+                    <p class="mb-4">Manutenção e construção de instalações elétricas residenciais,
+                        comerciais e industriais.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20solicitar%20orçamento%20para%20Instalações%20Elétricas"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Solicitar orçamento →</a>
+
+                </div>
+
+                <!-- Serviço 5 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Atendimento Emergencial 24h</h3>
+                    <p class="mb-4">galeria disponível 24 horas para emergências como curtos-circuitos,
+                        falta de energia e riscos de incêndio.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20chamar%20o%20Atendimento%20Emergencial%2024h"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Chamar agora →</a>
+                </div>
+
+                <!-- Serviço 6 -->
+                <div
+                    class="service-card bg-gray-50 rounded-xl p-8 hover:shadow-xl hover:bg-black hover:text-[#d6d6d6] cursor-pointer transition-all duration-300">
+                    <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-hard-hat text-2xl text-orange-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4">Trabalhos em Altura</h3>
+                    <p class="mb-4">galeria especializada em serviços em altura, atuando dentro das normas
+                        NR 33 e padrões IRATA BRASIL/INTERNACIONAL.</p>
+                    <a target="_blank"
+                        href="https://wa.me/5522992435074?text=Olá,%20gostaria%20de%20solicitar%20orçamento%20para%20Trabalhos%20em%20Altura"
+                        class="text-blue-600 hover:text-blue-800 font-medium">Solicitar orçamento →</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-20 bg-[#d6d6d6]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-6 text-[#ff6100]">Sobre a Garcia Soluções Elétricas</h2>
+                <p class="text-lg text-gray-700 mb-4">
+                    A <span class="font-semibold">Garcia Soluções Elétricas</span> é referência em Macaé e região quando
+                    o assunto é
+                    qualidade, segurança e inovação em serviços elétricos.
+                </p>
+                <p class="text-lg text-gray-700 mb-4">
+                    Atuamos em projetos residenciais, comerciais e industriais, com foco em eficiência energética,
+                    atendimento ágil e soluções personalizadas para cada cliente.
+                </p>
+                <p class="text-lg text-gray-700">
+                    Nossa missão é entregar serviços de excelência, seguindo normas técnicas e priorizando a segurança,
+                    para garantir tranquilidade e confiança aos nossos clientes.
+                </p>
+            </div>
+            <div class="flex justify-center">
+                <img src="assets/slide/slide16.jpg" alt="galeria Garcia"
+                    class="rounded-xl shadow-xl object-cover h-90 w-full max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="localizacao" class="py-16 bg-[#121212]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-8" style="color:#ff6100;">Onde estamos?</h2>
+            <div class="w-full h-96 rounded-2xl overflow-hidden shadow-lg">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.123456789!2d-41.8501234!3d-22.6445678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x....%3A0x....!2sEstrada%20do%20Casarão%2C%20Cantagalo%2C%20Rio%20das%20Ostras!5e0!3m2!1spt-BR!2sbr!4v169.....!5m2!1spt-BR!2sbr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato CTA -->
+    <section class="py-20 bg-[#d6d6d6]" id="contato">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6">Pronto para começar?</h2>
+            <p class="text-xl mb-8">Entre em contato e descubra como podemos ajudar você</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me/5522992435074" target="_blank"
+                    class="bg-black hover:bg-green-500 text-[#d6d6d6] px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                    <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                </a>
+                <a target="_blank" href="tel:22992435074"
+                    class="bg-black hover:bg-blue-500 text-[#d6d6d6] px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                    <i class="fas fa-phone mr-2"></i> Ligar agora
+                </a>
+                <a href="mailto:comercial@garciaseletrica.com"
+                    class="bg-black hover:bg-red-500 text-[#d6d6d6] px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
+                    <i class="fas fa-envelope mr-2"></i> Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#121212] text-[#d6d6d6] py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+
+                <!-- Logo + Descrição -->
+                <div>
+                    <div
+                        class="h-12 w-12 bg-blue-600 rounded-lg flex items-center justify-center text-[#d6d6d6] font-bold text-xl mb-4">
+                        <a href="#">GSE</a>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Garcia Soluções Elétricas - Serviços de elétrica com qualidade, segurança e confiança.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/solucoesgarcia" target="_blank"
+                            class="text-gray-400 hover:text-[#d6d6d6] transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/5522992435074" target="_blank"
+                            class="text-gray-400 hover:text-[#d6d6d6] transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Serviços -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Serviços</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Projetos de
+                                Iluminação LED</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Manutenção de
+                                Máquinas Leves</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Montagem de
+                                Padrão ENEL</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Instalações
+                                Elétricas</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Atendimento
+                                Emergencial 24h</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Trabalhos em
+                                Altura</a></li>
+                    </ul>
+                </div>
+
+                <!-- Empresa -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Nossa Empresa</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#sobre" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Sobre Nós</a></li>
+                        <li><a href="#servicos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">O que
+                                Fazemos</a></li>
+                        <li><a href="#projetos" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Projetos
+                                Realizados</a></li>
+                        <li><a href="#contato" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Fale Conosco</a>
+                        </li>
+                        <li><a href="#localizacao" class="text-gray-400 hover:text-[#d6d6d6] transition-colors">Onde
+                                estamos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contato</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3 text-blue-400"></i>Estrada Do Casarão, Cantagalo, S/N -
+                            Rio das Ostras
+                        </li>
+                        <li class="text-gray-400 flex items-center">
+                            <i class="fas fa-phone mr-3 text-blue-400"></i> (22) 99243-5074
+                        </li>
+                        <li class="text-gray-400 flex items-center">
+                            <i class="fas fa-envelope mr-3 text-blue-400"></i> comercial@garciaseletrica.com
+                        </li>
+                        <li class="text-gray-400 flex items-center">
+                            <i class="fas fa-clock mr-3 text-blue-400"></i> 24h disponível
+                        </li>
+                    </ul>
+                    <div class="flex items-center justify-between">
+
+                        <a href="https://www.reclameaqui.com.br" target="_blank"><img src="assets/icones/reclame aqui.png"
+                                alt="Reclame aqui" class="w-20 my-5"></a>
+                        <img src="assets/icones/logotipo-seguranca-do-trabalho-png.png"
+                            alt="segurança do trabalho" class="w-20 my-5">
+                        <img src="assets/icones/seguranca.png"
+                            alt="Certificado ssl" class="w-20 my-5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2025 Garcia Soluções Elétricas. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Whatsapp flutuante -->
+    <div>
+        <i class="fab fa-whatsapp text-8xl text-[#d6d6d6] fixed bottom-5 right-10 cursor-pointer hover:text-green-500 transition-colors z-50"
+            id="whatsappIconeFlutuante"></i>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
